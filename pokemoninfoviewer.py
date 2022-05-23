@@ -7,6 +7,8 @@ def main():
 
     root = Tk()
     root.title('Pokemon Info Viewer')
+    root.iconbitmap('ultraball.ico')
+    
     
     # Create the frames
     frm_input = ttk.Frame(root)
